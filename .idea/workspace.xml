@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5019ae63-8857-476c-a9c8-9dcfec04b3b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/d1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +36,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/public/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,6 +50,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/template" />
     </key>
@@ -78,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600914902649</updated>
-      <workItem from="1600914904170" duration="5028000" />
+      <workItem from="1600914904170" duration="5850000" />
     </task>
     <task id="LOCAL-00001" summary="Basic HTML and CSS for store. Barebones">
       <created>1600916913167</created>
@@ -108,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600919979704</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Frontend init commit">
+      <created>1600920290930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600920290930</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,17 +114,18 @@
     <MESSAGE value="Implemented List items and behavior" />
     <MESSAGE value="Sidebar doesnt open" />
     <MESSAGE value="Sidebar works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sidebar works now" />
+    <MESSAGE value="Frontend init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend init commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600919979601">
+    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600920290817">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600919979601" />
-    <state x="272" y="391" key="DiffContextDialog" timestamp="1600916904251">
+    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600920290817" />
+    <state x="272" y="192" key="DiffContextDialog" timestamp="1600920280291">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="272" y="391" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600916904251" />
+    <state x="272" y="192" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600920280291" />
     <state x="797" y="444" key="Github.ShareDialog" timestamp="1600914945947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -143,10 +138,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="97" y="358" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600915450405" />
-    <state x="559" y="279" key="Vcs.Push.Dialog.v2" timestamp="1600919983051">
+    <state x="559" y="279" key="Vcs.Push.Dialog.v2" timestamp="1600920295233">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="559" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600919983051" />
+    <state x="559" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600920295233" />
     <state x="624" y="254" key="run.anything.popup" timestamp="1600918510583">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
