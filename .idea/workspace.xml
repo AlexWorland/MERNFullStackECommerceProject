@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5019ae63-8857-476c-a9c8-9dcfec04b3b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +61,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -60,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600914902649</updated>
-      <workItem from="1600914904170" duration="4734000" />
+      <workItem from="1600914904170" duration="5028000" />
     </task>
     <task id="LOCAL-00001" summary="Basic HTML and CSS for store. Barebones">
       <created>1600916913167</created>
@@ -83,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600919919739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sidebar works now">
+      <created>1600919979704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600919979704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,13 +119,14 @@
     <MESSAGE value="Basic HTML and CSS for store. Barebones" />
     <MESSAGE value="Implemented List items and behavior" />
     <MESSAGE value="Sidebar doesnt open" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sidebar doesnt open" />
+    <MESSAGE value="Sidebar works now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar works now" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600919919634">
+    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600919979601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600919919634" />
+    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600919979601" />
     <state x="272" y="391" key="DiffContextDialog" timestamp="1600916904251">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -117,6 +143,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="97" y="358" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600915450405" />
+    <state x="559" y="279" key="Vcs.Push.Dialog.v2" timestamp="1600919983051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="559" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600919983051" />
     <state x="624" y="254" key="run.anything.popup" timestamp="1600918510583">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
