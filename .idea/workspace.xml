@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5019ae63-8857-476c-a9c8-9dcfec04b3b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +65,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600914902649</updated>
-      <workItem from="1600914904170" duration="6801000" />
+      <workItem from="1600914904170" duration="6931000" />
+      <workItem from="1600971115099" duration="98000" />
+      <workItem from="1600971227320" duration="76000" />
+      <workItem from="1600972453722" duration="46000" />
+      <workItem from="1600972516913" duration="651000" />
+      <workItem from="1600984303940" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="Basic HTML and CSS for store. Barebones">
       <created>1600916913167</created>
@@ -121,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600921297682</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed footer. Grid-container height was set to 100%, not 100vh like it should have been.">
+      <created>1600922243313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600922243313</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,13 +151,18 @@
     <MESSAGE value="template index.html body coppied to App.js" />
     <MESSAGE value="Reformatted App.js for javascript" />
     <MESSAGE value="Changed sidebar animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed sidebar animation" />
+    <MESSAGE value="Fixed footer. Grid-container height was set to 100%, not 100vh like it should have been." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed footer. Grid-container height was set to 100%, not 100vh like it should have been." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600921297590">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600972562674">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600921297590" />
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1600972562674" />
+    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600922243199">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600922243199" />
     <state x="272" y="192" key="DiffContextDialog" timestamp="1600920280291">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -156,14 +175,14 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="394" y="263" key="Github.UntrackedFilesDialog/0.23.1920.989@0.23.1920.989" timestamp="1600915036534" />
-    <state x="97" y="358" key="SettingsEditor" timestamp="1600915450405">
+    <state x="244" y="264" width="1237" height="722" key="SettingsEditor" timestamp="1600972483585">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="97" y="358" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600915450405" />
-    <state x="559" y="279" key="Vcs.Push.Dialog.v2" timestamp="1600920295233">
+    <state x="244" y="264" width="1237" height="722" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600972483585" />
+    <state x="559" y="279" key="Vcs.Push.Dialog.v2" timestamp="1600922245743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="559" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600920295233" />
+    <state x="559" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600922245743" />
     <state x="624" y="254" key="run.anything.popup" timestamp="1600918510583">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
