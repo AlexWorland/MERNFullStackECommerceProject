@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5019ae63-8857-476c-a9c8-9dcfec04b3b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/public/images/d1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600914902649</updated>
-      <workItem from="1600914904170" duration="5850000" />
+      <workItem from="1600914904170" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="Basic HTML and CSS for store. Barebones">
       <created>1600916913167</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600920290930</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="template index.html body coppied to App.js">
+      <created>1600921167289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600921167289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,13 +121,14 @@
     <MESSAGE value="Sidebar doesnt open" />
     <MESSAGE value="Sidebar works now" />
     <MESSAGE value="Frontend init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend init commit" />
+    <MESSAGE value="template index.html body coppied to App.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="template index.html body coppied to App.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600920290817">
+    <state x="201" y="163" key="CommitChangelistDialog2" timestamp="1600921167186">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600920290817" />
+    <state x="201" y="163" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600921167186" />
     <state x="272" y="192" key="DiffContextDialog" timestamp="1600920280291">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
