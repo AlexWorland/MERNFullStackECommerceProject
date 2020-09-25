@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5019ae63-8857-476c-a9c8-9dcfec04b3b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +106,7 @@
       <workItem from="1600972453722" duration="46000" />
       <workItem from="1600972516913" duration="651000" />
       <workItem from="1600984303940" duration="4169000" />
-      <workItem from="1601050090463" duration="8829000" />
+      <workItem from="1601050090463" duration="11125000" />
     </task>
     <task id="LOCAL-00001" summary="Basic HTML and CSS for store. Barebones">
       <created>1600916913167</created>
@@ -188,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601060748654</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implemente React Hooks to fetch data from the backend and deliver it to the frontend. Also commented out unnecessary imports.">
+      <created>1601061823280</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601061823280</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,21 +220,22 @@
     <MESSAGE value="Switched linking over to BrowserRouter Routes and initialized product details page." />
     <MESSAGE value="Details page implemented with image, details, and action columns as well as a return to result link." />
     <MESSAGE value="Set up basic node server for backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up basic node server for backend" />
+    <MESSAGE value="Implemente React Hooks to fetch data from the backend and deliver it to the frontend. Also commented out unnecessary imports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemente React Hooks to fetch data from the backend and deliver it to the frontend. Also commented out unnecessary imports." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601053450368">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601053450368" />
-    <state x="201" y="59" key="CommitChangelistDialog2" timestamp="1601060748528">
+    <state x="201" y="59" key="CommitChangelistDialog2" timestamp="1601061823133">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="201" y="59" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601060748528" />
-    <state x="272" y="192" key="DiffContextDialog" timestamp="1601055884273">
+    <state x="201" y="59" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601061823133" />
+    <state x="272" y="192" key="DiffContextDialog" timestamp="1601061780872">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="272" y="192" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601055884273" />
+    <state x="272" y="192" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601061780872" />
     <state x="797" y="444" key="Github.ShareDialog" timestamp="1600914945947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -300,10 +312,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="244" y="264" width="1237" height="722" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600972483585" />
-    <state x="106" y="75" key="Vcs.Push.Dialog.v2" timestamp="1601058148038">
+    <state x="106" y="75" key="Vcs.Push.Dialog.v2" timestamp="1601061827842">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="106" y="75" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601058148038" />
+    <state x="106" y="75" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601061827842" />
     <state x="624" y="254" key="run.anything.popup" timestamp="1600918510583">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
