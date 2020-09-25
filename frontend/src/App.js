@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import data from './data.js';
+// import data from './data.js'; // Data is now handled by the backend.
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
