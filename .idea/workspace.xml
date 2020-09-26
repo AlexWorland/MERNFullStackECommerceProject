@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5019ae63-8857-476c-a9c8-9dcfec04b3b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/productActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/constants/productConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/productReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/screens/ProductScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,7 @@
       <workItem from="1600972516913" duration="651000" />
       <workItem from="1600984303940" duration="4169000" />
       <workItem from="1601050090463" duration="11300000" />
-      <workItem from="1601142251693" duration="10533000" />
+      <workItem from="1601142251693" duration="11580000" />
     </task>
     <task id="LOCAL-00001" summary="Basic HTML and CSS for store. Barebones">
       <created>1600916913167</created>
@@ -207,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601065014547</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="State manager now manages the display of the products' details">
+      <created>1601156433737</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601156433737</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,16 +232,18 @@
     <MESSAGE value="Set up basic node server for backend" />
     <MESSAGE value="Implemente React Hooks to fetch data from the backend and deliver it to the frontend. Also commented out unnecessary imports." />
     <MESSAGE value="Added redux state manager to handle informing the user if there is an error with retrieving data from the backend. Also to show the user a loading screen when finding a product." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added redux state manager to handle informing the user if there is an error with retrieving data from the backend. Also to show the user a loading screen when finding a product." />
+    <MESSAGE value="State manager now manages the display of the products' details" />
+    <option name="LAST_COMMIT_MESSAGE" value="State manager now manages the display of the products' details" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601053450368">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601053450368" />
-    <state x="201" y="59" key="CommitChangelistDialog2" timestamp="1601065014384">
+    <state x="201" y="59" key="CommitChangelistDialog2" timestamp="1601156433561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="201" y="59" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601156433561" />
     <state x="201" y="59" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601065014384" />
     <state x="272" y="192" key="DiffContextDialog" timestamp="1601061780872">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -253,25 +257,25 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="394" y="263" key="Github.UntrackedFilesDialog/0.23.1920.989@0.23.1920.989" timestamp="1600915036534" />
-    <state width="1899" height="300" key="GridCell.Tab.0.bottom" timestamp="1601154649699">
+    <state width="1899" height="300" key="GridCell.Tab.0.bottom" timestamp="1601157375602">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601154649699" />
+    <state width="1899" height="300" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601157375602" />
     <state width="1899" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601065230669" />
-    <state width="1899" height="300" key="GridCell.Tab.0.center" timestamp="1601154649697">
+    <state width="1899" height="300" key="GridCell.Tab.0.center" timestamp="1601157375600">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601154649697" />
+    <state width="1899" height="300" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601157375600" />
     <state width="1899" height="300" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601065230668" />
-    <state width="1899" height="300" key="GridCell.Tab.0.left" timestamp="1601154649696">
+    <state width="1899" height="300" key="GridCell.Tab.0.left" timestamp="1601157375599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601154649696" />
+    <state width="1899" height="300" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601157375599" />
     <state width="1899" height="300" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601065230668" />
-    <state width="1899" height="300" key="GridCell.Tab.0.right" timestamp="1601154649698">
+    <state width="1899" height="300" key="GridCell.Tab.0.right" timestamp="1601157375601">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601154649698" />
+    <state width="1899" height="300" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1601157375601" />
     <state width="1899" height="300" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601065230669" />
     <state width="1899" height="370" key="GridCell.Tab.1.bottom" timestamp="1601065230659">
       <screen x="0" y="0" width="1920" height="1080" />

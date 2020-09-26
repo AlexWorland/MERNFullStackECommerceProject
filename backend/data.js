@@ -8,7 +8,8 @@ export default {
             price: 60,
             brand: 'Nike',
             rating: 4.5,
-            numReviews: 10
+            numReviews: 10,
+            countInStock: 0
         },
         {
             _id:'2',
@@ -18,7 +19,8 @@ export default {
             price: 80,
             brand: 'Amazon Basics',
             rating: 3.8,
-            numReviews: 15
+            numReviews: 15,
+            countInStock: 60
         },
         {
             _id:'3',
@@ -28,7 +30,8 @@ export default {
             price: 90,
             brand: 'Amazon Basics',
             rating: 3.2,
-            numReviews: 25
+            numReviews: 25,
+            countInStock: 2
         },
         {
             _id:'4',
@@ -38,7 +41,8 @@ export default {
             price: 90,
             brand: 'Google Shirts',
             rating: 3.2,
-            numReviews: 25
+            numReviews: 25,
+            countInStock: 8
         }
     ]
 }
