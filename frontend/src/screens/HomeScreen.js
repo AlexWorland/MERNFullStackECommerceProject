@@ -24,10 +24,10 @@ function HomeScreen (props) {
         return () => {
             //
         };
-    }, [])
+    }, []);
 
     // DEBUG
-    console.log("This is the homescreen.js")
+    console.log("This is the homescreen.js");
 
     // Checks if currently loading, if theres an error, and if neither display list of products.
     return loading ? <div>Loading...</div> :
