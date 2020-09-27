@@ -1,12 +1,17 @@
 import {createStore, combineReducers, compose, applyMiddleware} from 'redux';
 import {productDetailsReducer, productListReducer} from "./reducers/productReducers";
 import thunk from 'redux-thunk';
+import {cartReducer} from "./reducers/cartReducers";
+import Cookie from "js-cookie"
 
-const initialState = {};
+const cartItems = Cookie.getJSON("cartItems") || [];
+
+const initialState = {cart: {cartItems}};
 // Reducer takes a state and an action and returns a new state based on that action.
 const reducer = combineReducers({
     productList: productListReducer,
-    productDetails: productDetailsReducer
+    productDetails: productDetailsReducer,
+    cart: cartReducer
 })
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
