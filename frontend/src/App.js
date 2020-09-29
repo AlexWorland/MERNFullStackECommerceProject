@@ -5,6 +5,9 @@ import {BrowserRouter, Route, Link} from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from "./screens/CartScreen";
+import SigninScreen from "./screens/SigninScreen";
+import {useSelector} from "react-redux";
+import RegisterScreen from "./screens/RegisterScreen";
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
   const closeMenu = () => {
     document.querySelector(".sidebar").classList.remove("open");
   }
+
+  const userSignin = useSelector(state=>state.userSignin)
+  const {userInfo} = userSignin;
 
   return (
       <BrowserRouter>
@@ -27,8 +33,15 @@ function App() {
               <Link to="/">full stack store</Link>
             </div>
             <div className="header-links">
-              <a href="cart.html">Shopping Cart</a>
-              <a href="signin.html">Sign In</a>
+              {/*<a href="cart.html">Shopping Cart</a>*/}
+              <Link to="/cart">Shopping Cart</Link>
+              {
+                userInfo ?
+                    <Link to="/profile">{userInfo.name}</Link>
+                    :
+                    <Link to="/signin">Sign In</Link>
+              }
+              {/*<a href="signin.html">Sign In</a>*/}
             </div>
           </header>
 
@@ -47,10 +60,13 @@ function App() {
 
           <main className="main">
             <div className="content">
+              <Route path="/signin" component={SigninScreen}/>
+              <Route path="/register" component={RegisterScreen}/>
               <Route path="/product/:id" component={ProductScreen}/>
               {/* ? means product id is optional*/}
               <Route path="/cart/:id?" component={CartScreen}/>
               <Route path="/" exact={true} component={HomeScreen}/>
+
             </div>
           </main>
           <footer className="footer">
