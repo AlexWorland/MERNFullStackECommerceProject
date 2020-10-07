@@ -14,9 +14,11 @@ function SigninScreen(props) {
 
     const dispatch = useDispatch();
 
+    const redirect = props.location.search?props.location.search.split("=")[1]:'/';
+
     useEffect(() => {
         if (userInfo) {
-            props.history.push("/")
+            props.history.push(redirect);
         }
         return () => {
             //
@@ -55,7 +57,7 @@ function SigninScreen(props) {
                     New to full stack store?
                 </li>
                 <li>
-                    <Link to="/register" className="button secondary text-center">Create Account</Link>
+                    <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center">Create Account</Link>
 
                 </li>
             </ul>

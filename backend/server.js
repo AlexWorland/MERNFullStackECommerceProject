@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import userRoute from './routes/userRoute';
 import bodyParser from 'body-parser';
 import productsRoute from "./routes/productsRoute";
+import orderRoute from "./routes/orderRoute";
 dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
@@ -19,6 +20,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use("/api/users", userRoute);
 app.use("/api/products", productsRoute);
+app.use("/api/orders", orderRoute);
 
 // app.get("/api/products", (req, res) => {
 //     res.send(data.products);
